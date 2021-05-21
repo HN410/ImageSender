@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wayLabels">
+        <item>TCPIP</item>
+        <item>Bluetooth</item>
+    </string-array>
+    <string-array name="isResized">
+        <item>そのまま</item>
+        <item>４分の１に</item>
+    </string-array>
+</resources>

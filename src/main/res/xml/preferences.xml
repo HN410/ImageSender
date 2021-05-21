@@ -1,0 +1,37 @@
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:key="sendingWay"
+        android:title="通信方法"
+        android:entries="@array/wayLabels"
+        android:entryValues="@array/wayLabels"
+        android:dialogTitle="通信方法"
+        android:defaultValue="Bluetooth" />
+    <ListPreference
+        android:key="isResized"
+        android:title="リサイズの有無"
+        android:entries="@array/isResized"
+        android:entryValues="@array/isResized"
+        android:dialogTitle="リサイズ"
+        android:defaultValue="４分の１に" />
+    <EditTextPreference
+        android:key="ipAddress"
+        android:title="IPアドレス"
+        android:dialogTitle="IPアドレス"
+        android:defaultValue="192.168.10.101" />
+    <EditTextPreference
+        android:key="portN"
+        android:title="ポート番号"
+        android:dialogTitle="ポート番号"
+        android:defaultValue="15403" />
+    <EditTextPreference
+        android:key="BTDeviceAddress"
+        android:title="Bluetoothデバイスアドレス"
+        android:dialogTitle="Bluetoothデバイスアドレス"
+        android:defaultValue=""/>
+    <EditTextPreference
+        android:key="BTUUID"
+        android:title="BluetoothUUID"
+        android:dialogTitle="BluetoothUUID"
+        android:defaultValue=""/>
+
+</androidx.preference.PreferenceScreen>

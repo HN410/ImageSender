@@ -1,6 +1,6 @@
 # ImageSender
 ## 概要
-別リポジトリの[ImageToPDF](https://github.com/HN410/ImageToPDF)に撮影した写真を送信するAndroidアプリです．詳しくはそちらを参照してください．
+[ImageToPDF](https://github.com/HN410/ImageToPDF)に撮影した写真を送信するAndroidアプリです．詳しくはそちらを参照してください．
 
 ## 参考にさせていただいたサイト
 
